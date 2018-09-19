@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "wav_reader_types.h"
-#include "wav_reader_methods.h"
+#include "lib/wav_reader_types.h"
+#include "lib/wav_reader_methods.h"
 
 int main() {
     FILE *fp;
@@ -14,8 +14,6 @@ int main() {
     };
 
     print_wav_header(wh);
-    print_wav_header_json(wh);
-
 
     fclose(fp);
     return 0;

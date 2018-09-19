@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/wav_reader.dir/main.c.o CMakeFiles/wav_reader.dir/lib/wav_reader_methods.c.o  -o wav_reader 

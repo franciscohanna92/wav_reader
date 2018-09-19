@@ -1,0 +1,3 @@
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/cmake-build-debug/CMakeFiles/wav_reader.dir

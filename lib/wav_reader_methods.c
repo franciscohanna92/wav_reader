@@ -2,8 +2,8 @@
 #include "wav_reader_types.h"
 
 /**
- *
- * @param fp
+ * Reads the RIFF header of the WAV file
+ * @param fp A pointer to a WAV file
  * @return
  */
 struct riff_header read_riff_header(FILE* fp) {
@@ -21,8 +21,8 @@ struct riff_header read_riff_header(FILE* fp) {
 }
 
 /**
- *
- * @param fp
+ * Reads the fmt subchunk of the WAV file
+ * @param fp A pointer to a WAV file
  * @return
  */
 struct fmt_subchunk read_fmt_subchunk(FILE* fp) {
@@ -44,8 +44,8 @@ struct fmt_subchunk read_fmt_subchunk(FILE* fp) {
 }
 
 /**
- *
- * @param fp
+ * Reads the data subchunk of the WAV file
+ * @param fp A pointer to a WAV file
  * @return
  */
 struct data_subchunk read_data_subchunk(FILE* fp) {
@@ -80,35 +80,4 @@ void print_wav_header(struct wav_header wh) {
     printf("*** data subchunk ***\n");
     printf("%s\n", wh.data_subchunk.subchunk2_id);
     printf("%d\n", wh.data_subchunk.subchunk2_size);
-}
-
-/**
- *
- * @param wh
- */
-void print_wav_header_json(struct wav_header wh) {
-    printf("{"
-           "\"riff_header\": {"
-           "\"chunk_id\": \"%s\","
-           "\"chunk_size\": %d,"
-           "\"format\": \"%s\""
-           "}", wh.riff_header.chunk_id, wh.riff_header.chunk_size, wh.riff_header.format);
-
-//    printf("%s\n", wh.riff_header.chunk_id);
-//    printf("%d\n", wh.riff_header.chunk_size);
-//    printf("%s\n\n", wh.riff_header.format);
-//
-//    printf("*** fmt subchunk *** \n");
-//    printf("%s\n", wh.fmt_subchunk.subchunk1_id);
-//    printf("%d\n", wh.fmt_subchunk.subchunk1_size);
-//    printf("%d\n", wh.fmt_subchunk.audio_format);
-//    printf("%d\n", wh.fmt_subchunk.num_channels);
-//    printf("%d\n", wh.fmt_subchunk.sample_rate);
-//    printf("%d\n", wh.fmt_subchunk.byte_rate);
-//    printf("%d\n", wh.fmt_subchunk.block_align);
-//    printf("%d\n\n", wh.fmt_subchunk.bits_per_sample);
-//
-//    printf("*** data subchunk ***\n");
-//    printf("%s\n", wh.data_subchunk.subchunk2_id);
-//    printf("%d\n", wh.data_subchunk.subchunk2_size);
 }

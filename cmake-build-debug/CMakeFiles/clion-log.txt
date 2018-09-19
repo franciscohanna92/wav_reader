@@ -1,0 +1,4 @@
+/home/franciscohanna92/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/cmake-build-debug

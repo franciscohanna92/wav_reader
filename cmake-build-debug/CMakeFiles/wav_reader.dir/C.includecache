@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/main.c
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/lib/wav_reader_methods.c
 stdio.h
+-
+string.h
 -
 wav_reader_types.h
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_types.h
-wav_reader_methods.h
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_methods.h
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/lib/wav_reader_types.h
 
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_methods.c
-stdio.h
--
-wav_reader_types.h
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_types.h
-
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_methods.h
-stdio.h
--
-
-/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/wav_reader_types.h
+/home/franciscohanna92/Facultad/teoria-informacion/practico1/wav_reader/lib/wav_reader_types.h
 
